@@ -1,6 +1,13 @@
 body {
 background-color: powderblue;
 }
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
 div {
 text-align: center;
 }
