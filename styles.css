@@ -30,7 +30,7 @@ form {
   margin: 30px auto;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 25px;
   background: rgba(255, 255, 255, 0.25);
   padding: 30px;
   border-radius: 15px;
