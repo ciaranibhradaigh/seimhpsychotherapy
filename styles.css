@@ -14,7 +14,15 @@ body {
   text-align: center;
   font-family: 'Aboreto', serif;
   color: #2b3823;
-  animation: fadeInUp 0.8s ease-out;
+  animation: fadeInUp 1.2s ease-out;
+}
+
+h1 {
+  animation: fadeInUp 1.0s ease-out;
+}
+
+h2 {
+  animation: fadeInUp 1.2s ease-out;
 }
 
 form {
@@ -22,16 +30,18 @@ form {
   margin: 30px auto;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 18px;
   background: rgba(255, 255, 255, 0.25);
-  padding: 25px;
+  padding: 30px;
   border-radius: 15px;
   backdrop-filter: blur(5px);
-  animation: fadeInUp 0.8s ease-out;
+  animation: fadeInUp 1.2s ease-out;
 }
 
 input,
 textarea {
+  width: 100%;
+  box-sizing: border-box;
   padding: 12px;
   border: none;
   border-radius: 10px;
@@ -46,6 +56,8 @@ textarea {
 }
 
 button {
+  width: 100%;
+  margin-top: 5px;
   padding: 12px;
   border: none;
   border-radius: 10px;
