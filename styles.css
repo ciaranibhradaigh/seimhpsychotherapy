@@ -4,6 +4,36 @@ body {
   font-family: 'Aboreto', serif;
   color: #2b3823;
 }
+
+form {
+  width: 300px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Aboreto', serif;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #2b3823;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
 img {
   width: 150px;
   height: 150px;
