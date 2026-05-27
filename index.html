@@ -1,68 +1,432 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Séimh Psychotherapy</title>
+  
+  <!-- Favicon Links -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+  
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet"> <!-- Aboreto -->
-  <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet"> <!-- Cormorant -->
-  <title>Séimh Psychotherapy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"> <!-- Cormorant -->
 </head>
-<body>
-<div class="container">
-  
-  <img src="image/seimhlogo2.png">
-  <h1>Séimh Counselling and Psychotherapy</h1>
-  <h2>Therapy for Adults, Adolescents and Children in North Dublin</h2>
-  <h3>Coming soon</h3>
+<nav>
+    <div class="nav-logo">
+      <img src="seimhlogo2.png" alt="Séimh Psychotherapy">
+    Séimh Psychotherapy
+  </div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#fees">Fees</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
 
-<form id="form">
-    <fieldset>
-    <legend>Get in touch</legend>
-  <input type="text" name="name" placeholder="Your Name" required>
-  <input type="email" name="email" placeholder="Your Email" required>
-  <textarea name="message" placeholder = "Your Message" required></textarea>
-  <button type="submit">Submit</button>
-    </fieldset>
-  <div class="h-captcha" data-captcha="true"></div>
-</form>
+<!-- HERO -->
   
+<section class="hero">
+  <div class="hero-content">
+    <img src="séimhlogo3.png" alt="Séimh Psychotherapy Logo" class="logo">
+
+    <h1>Séimh Counselling and Psychotherapy</h1>
+    <p class="tagline">
+      Spás sábháilte, séimh, suaimhneach.<br>
+      A gentle, caring, safe space.
+    </p>
+    <a href="#contact" class="intro-btn">Book a Free Consultation</a>
+  </div>
+</section>
+
+  <!-- INTRO -->
+
+  <section class="intro reveal">
+    <div class="container">
+
+      <p>
+        Offering professional, confidential counselling and psychotherapy in Clontarf and
+        Kilbarrack, North Dublin, for adults, adolescents, and children.
+      </p>
+      <br>
+      <p>
+        With convenient and accessible North Dublin locations, free parking, and excellent
+        public transport links, I provide a calm and welcoming space where you can slow
+        down, feel heard, and find support in a safe, compassionate, and non-judgmental
+        environment.
+      </p>
+    </div>
+  </section>
+
+<!-- ABOUT ME -->
+  
+<section id="about" class="reveal">
+  <div class="container about">
+
+    <div class="about-image">
+    <img src="website_head_shot.PNG" alt="Áine">
+    </div>
+    <div class="about-text">
+      <h2 class="section-title">About Me</h2>
+        <p>
+          Hi, I'm Áine.
+        </p>
+      <br>
+        <p>
+          I believe there is no “one-size-fits-all” approach to therapy. Every individual - child,
+          adolescent, or adult - is unique and brings their own lived experience, strengths, and
+          challenges. Therapy should feel collaborative, flexible, and tailored to the individual
+          needs and goals of each client.
+        </p>
+      <br>
+      <p>
+        I work integratively, drawing from a range of evidence-based therapeutic approaches
+        to provide personalised support. These approaches may include:
+      </p>
+      <br>
+      <ul class="therapy-list">
+        <li>Cognitive Behavioural Therapy (CBT)</li>
+        <li>Gestalt Therapy</li>
+        <li>Narrative Therapy</li>
+        <li>Person-Centred Therapy</li>
+        <li>Attachment-Based Approaches</li>
+        <li>Mindfulness</li>
+        <li>Trauma-Informed Practice</li>
+        <li>Creative Therapies</li>
+        <li>Integrative Play Therapy for Children</li>
+      </ul>
+      <br>
+      <p>By adapting therapy to each individual client, my goal is to create a supportive and
+      meaningful therapeutic experience that respects each client’s emotional,
+      developmental, and psychological needs.</p>
+      <br>
+      <p>
+      At the heart of my work is the evidence-based belief that the therapeutic relationship
+      itself is central to creating lasting and meaningful change. I work collaboratively with
+      adults, adolescents, children, and families to ensure therapy feels safe, empowering,
+      and supportive. Clients are encouraged to have an active voice in their therapeutic
+      journey, helping shape sessions in ways that feel comfortable, engaging, and
+      beneficial for them. My approach is neurodiverse positive, LGBTQIA+ affirming, and
+      trauma informed.
+        </p>
+      <br>
+      <p>Whether you are seeking support for yourself, your teenager, or your child, therapy
+      can offer a space to feel understood, develop healthier coping strategies, and build
+      emotional resilience.</p>
+      <br>
+      <p>If you would like to know more about the way I work, please get in touch to arrange a
+      free 30-minute consultation.</p>
+      <br>
+      <a href="#contact" class="intro-btn">Book a Free Consultation</a>
+      </div>
+    </div>
+</section>
+
+  <!-- QUALIFICATIONS -->
+
+  <section class="qualifications reveal">
+    <div class="container">
+      <h2 class="section-title">Qualifications</h2>
+      <div class="qual-grid">
+        <div class="card">
+          <h3>Education</h3>
+          <ul>
+            <li>MSc Pluralistic Counselling and Psychotherapy (First Class Honours)</li>
+            <li>Higher Certificate Integrative Counselling and Psychotherapy</li>
+            <li>Postgraduate Diploma in Integrative Child and Adolescent Psychotherapy</li>
+            <li>BA Mod Sociology (Hons)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Professional Development</h3>
+          <ul>
+            <li>Introduction to ACT with Compassion</li>
+            <li>Trauma Informed Therapy</li>
+            <li>Trauma, Neuroscience and Adolescence</li>
+            <li>CBT with Depression</li>
+            <li>Working Professionally Online for IACP Members</li>
+            <li>ASIST (Applied Suicide Intervention Skills)</li>
+            <li>Multi-Cultural Orientation Training</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- SERVICES -->
+
+  <section id="services">
+    <div class="container">
+      <h2 class="section-title">What I Offer</h2>
+      <div class="services-grid">
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <!-- Adult Counselling Card -->
+            <!-- FRONT -->
+            <div class="flip-card-front service-card">
+              <h3>Adult Counselling & Psychotherapy</h3>
+              <p>
+                  My work with adults focuses on both present-day challenges and the ways earlier life
+                  experiences can continue to shape thoughts, emotions, relationships, and
+                  behaviours.
+              </p>
+              <button class="service-btn flip-btn">Learn More</button>
+          </div>
+  
+            <!-- BACK -->
+            <div class="flip-card-back service-card">
+              <img class="flip-card-img" src="adult_therapy.JPG">
+              <p>Therapy offers a confidential space to explore experiences, gain insight, and develop
+              healthier ways of coping and relating.</p>
+              <p>I support adults experiencing:</p>
+              <ul>
+                <li>Anxiety and depression</li>
+                <li>Perinatal and post-partum mental health difficulties</li>
+                <li>Intergenerational trauma</li>
+                <li>Family estrangement</li>
+                <li>Domestic violence and coercive control</li>
+                <li>Sexual assault and abuse</li>
+                <li>Addiction</li>
+                <li>Chronic illness</li>
+                <li>Feelings of being stuck or overwhelmed</li>
+                <li>Stress, burnout, and emotional difficulties</li>
+                </ul>
+              <button class="service-btn back-btn">Back</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <!-- Adolescent Counselling Card -->
+            <!-- FRONT -->
+            <div class="flip-card-front service-card">
+              <h3>Adolescent & Teen Therapy</h3>
+              <p>Adolescence can be an emotionally intense and challenging stage of life. Teen
+              counselling provides a supportive space where young people can speak openly
+              about their experiences without fear of judgement.</p>
+              <button class="service-btn flip-btn">Learn More</button>
+          </div>
+  
+            <!-- BACK -->
+            <div class="flip-card-back service-card">
+              <img class="flip-card-img" src="adolescent_therapy.PNG">
+             <p>My pluralistic and integrative approach to adolescent psychotherapy supports young
+              people through talk therapy, creative expression, art, storytelling, sensory-informed
+              interventions, and reflective exploration. Therapy can help adolescents build
+              resilience, emotional awareness, communication skills, confidence, and healthier
+              coping strategies.</p>
+              <p>As an integrative child and adolescent therapist, my work is always trauma-informed,
+              developmentally informed, and guided by current research, professional ethics, and
+              best practice standards.</p>
+              <p>Adolescent therapy can support young people experiencing:</p>
+              <ul>
+                <li>Anxiety and school-related stress</li>
+                <li>Exam pressure</li>
+                <li>Social anxiety</li>
+                <li>Bullying</li>
+                <li>Emotional regulation difficulties</li>
+                <li>Low confidence and self-esteem</li>
+                <li>Friendship difficulties</li>
+                <li>Family conflict</li>
+                <li>Identity and self-image concerns</li>
+                <li>Anger and frustration</li>
+                <li>Low mood and depression</li>
+                <li>Neurodiversity-related challenges</li>
+              </ul>
+              <button class="service-btn back-btn">Back</button>
+            </div>
+          </div>
+        </div>
+        
+              <div class="flip-card reveal">
+          <div class="flip-card-inner">
+            <!-- Child Counselling Card -->
+            <!-- FRONT -->
+            <div class="flip-card-front service-card">
+              <h3>Child Counselling and Play Therapy</h3>
+              <p>Children often communicate emotions through behaviour, play, creativity, and
+              relationships rather than words alone. Child-centred counselling offers a safe and
+              supportive space where children can explore difficult feelings and make sense of
+              overwhelming experiences.</p>
+              <button class="service-btn flip-btn">Learn More</button>
+          </div>
+  
+            <!-- BACK -->
+            <div class="flip-card-back service-card">
+              <img class="flip-card-img" src="childrens_therapy.JPG">
+              <p>Our Kilbarrack therapy room includes a dedicated therapeutic space for children, 
+              supporting creative approaches such as integrative play therapy, CBT-informed interventions, 
+              art, storytelling, and sensory-informed work helping children develop emotional understanding, coping skills,
+              confidence, resilience, and a stronger sense of self.</p>
+              <p>Therapy can help children with:</p>
+              <ul>
+                <li>Anxiety and worries</li>
+                <li>Emotional outburts</li>
+                <li>Behavioural difficulties</li>
+                <li>School-related stress</li>
+                <li>Neurodiversity-related challenges</li>
+                <li>Family separation or change</li>
+                <li>Grief and loss</li>
+                <li>Friendship and social difficulties</li>
+                <li>Low confidence and self esteem</li>
+                <li>Emotional regulation difficulties</li>
+                <li>Life transitions and change</li>
+              </ul>
+              <button class="service-btn back-btn">Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+ </section>
+
+  <!-- CTA -->
+
+  <section class="cta reveal">
+    <div class="container">
+      <h2>What now?</h2>
+      <p>
+        If you are here, you are already considering taking the first important step.
+        Reach out for a free 30-minute consultation, in person or over the phone,
+        to discuss what you, your teen, or your child would like from therapy.
+      </p>
+      <a href="#contact" class="btn">
+        Arrange a Consultation
+      </a>
+    </div>
+  </section>
+
+ <!-- FEES -->
+
+  <section class="fees" id="fees">
+    <div class="container reveal">
+      <h2 class="section-title">Services & Fees</h2>
+      <p>
+        The standard fee for an individual 50-minute session is €70.
+      </p>
+      <br>
+      <p>
+        I strongly believe in social justice and equality and am committed
+        to making therapy accessible to all. A sliding scale is available
+        for individuals experiencing financial difficulty. If cost feels like a barrier, 
+        please don’t hesitate to get in touch — we can discuss a fee arrangement 
+        that works for your circumstances. The goal at Séimh Psychotherapy is to provide 
+        compassionate, accessible support regardless of financial situation.
+      </p>
+      <br>
+      <p>
+        Assessment and review sessions with parents and carers of
+        under 18s attending therapy are 60-minute sessions and incur
+        a fee of €80.
+      </p>
+    </div>
+  </section>
+
+
+<!-- CONTACT -->
+  
+  <section id="contact">
+    <div class="container reveal">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-wrapper">
+        <div class="contact-details reveal">
+          <p>
+            <strong>Email:</strong><br>
+            aine@seimhpsychotherapy.ie
+          </p>
+          <p>
+            <strong>Telephone:</strong><br>
+            087 036 6021
+          </p>
+          <p>
+            <strong>Location:</strong><br>
+            Clontarf and Kilbarrack, North Dublin
+          </p>
+        </div>
+    <!-- CONTACT FORM -->
+    <form id="form">
+        <fieldset>
+        <legend><strong>Get in touch</strong></legend>
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Submit</button>
+        </fieldset>
+      <div class="h-captcha" data-captcha="true"></div>
+    </form>
+  </div>
+</section>
+
+  <!-- FOOTER -->
+  
+  <footer>
+    <p>Séimh Counselling & Psychotherapy</p>
+
+    <!-- Instagram Logo -->
+    <a 
+    href="https://instagram.com/seimh_psychotherapy" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    class="instagram-link"
+    aria-label="Instagram">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="white"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="instagram-icon">
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+    <circle cx="12" cy="12" r="4"></circle>
+    <circle cx="18" cy="6" r="1"></circle>
+  </svg>
+  </a>
+    
+    <p>
+      Neurodiverse Positive • LGBTQIA+ Affirming • Trauma Informed Support for </p>
+    <p>• Anxiety and Depression • Perinatal and Post-Partum Mental Health Difficulties • Intergenerational Trauma • Family Estrangement •
+      Domestic Violence and Coercive Control • Sexual Assault and Abuse • Addiction • Chronic Illness • 
+      Feelings of Being Stuck or Overwhelmed
+    </p>
+    <p>
+      © 2026 Séimh Psychotherapy
+    </p>
+  </footer>
+
+  
+<!-- Web3forms Script -->
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
-
+document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById('form');
   const submitBtn = form.querySelector('button[type="submit"]');
-
   form.addEventListener('submit', async (e) => {
       e.preventDefault();
-
       const formData = new FormData(form);
       formData.append("access_key", "8a2b9f17-c66e-4a2a-a23b-9bfa90db6cab");
-
       const originalText = submitBtn.textContent;
-
       submitBtn.textContent = "Sending...";
       submitBtn.disabled = true;
-
       try {
           const response = await fetch("https://api.web3forms.com/submit", {
               method: "POST",
               body: formData
           });
-
           const data = await response.json();
-
           if (response.ok) {
               alert("Success! Your message has been sent.");
               form.reset();
           } else {
               alert("Error: " + data.message);
           }
-
       } catch (error) {
           alert("Something went wrong. Please try again.");
       } finally {
@@ -72,8 +436,45 @@
   });
 });
 </script>
+  
+  <script src="https://web3forms.com/client/script.js" async defer></script>
+  
+   <!-- Reveal Script --> 
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const elements = document.querySelectorAll(".reveal");
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("active");
+          observer.unobserve(entry.target); 
+        }
+      });
+    }, {
+      threshold: 0.15
+    });
+    elements.forEach(el => observer.observe(el));
+  });
+  </script>
 
-<script src="https://web3forms.com/client/script.js" async defer></script>
-</div>
+  <!-- Flip Card Script -->
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  document.querySelectorAll(".flip-btn").forEach(button => {
+    button.addEventListener("click", () => {
+      button.closest(".flip-card").classList.add("flipped");
+    });
+  });
+
+  document.querySelectorAll(".back-btn").forEach(button => {
+    button.addEventListener("click", () => {
+      button.closest(".flip-card").classList.remove("flipped");
+    });
+  });
+
+});
+</script>
+  
 </body>
 </html>
