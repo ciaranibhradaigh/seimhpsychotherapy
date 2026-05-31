@@ -337,7 +337,6 @@
      margin-bottom:20px;
      font-size:2rem;
      line-height:1.2;
-     min-height: 160px;
   }
 
   .service-card p{
@@ -365,7 +364,7 @@
 
     .flip-card{
       perspective:1200px;
-      min-height:480px;
+      height:700px;
       max-width:380px;
       width:100%;
       margin:auto;
