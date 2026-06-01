@@ -221,7 +221,7 @@
       display:inline-block;
       background:white;
       color:#2b3823;
-      padding:15px 34px;
+      padding:15px 32px;
       border-radius:50px;
       font-weight:600;
       transition:all 0.35s ease;
@@ -262,7 +262,7 @@
 
   .section-title{
     font-size:3.2rem;
-    margin-bottom:30px;
+    margin-bottom:28px;
     line-height:1.1;
   }
 
