@@ -62,3 +62,7 @@ Experienced psychotherapist in North Dublin
 Mental health counselling for teenagers Dublin
 Child and adolescent psychotherapy Dublin
 Family-focused psychotherapy North Dublin
+Nesta Business Centre, Howth Junction, Kilbarrack, Dublin 5, D05 DC60
+https://maps.app.goo.gl/nspqF7NM3KWQ6Vhk7
+D3 Counselling & Psychotherapy, The Merchamp Centre, Clontarf, Dublin 3, D03 E0X3
+https://maps.app.goo.gl/BwGnSEi4ekzVnewd7
