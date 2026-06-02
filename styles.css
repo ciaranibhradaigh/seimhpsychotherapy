@@ -233,9 +233,10 @@
     /* ABOUT */
 
 .about{
-  display:block;
-  max-width:1100px;
-   padding-top:0px;
+   position:relative;
+   display:block;
+   max-width:1100px;
+   padding-top:50px;
 }
 
 .about-image{
