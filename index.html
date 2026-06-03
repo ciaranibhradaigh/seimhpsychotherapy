@@ -7,7 +7,7 @@
   <!-- SEO Meta Tags -->
   <title>Séimh Psychotherapy - Trauma-Informed Counselling in Dublin | Adults, Teens & Children</title>
   <meta name="description" content="Compassionate, trauma-informed counselling and psychotherapy in North Dublin for adults, teenagers, and children. Flexible, evidence-based approaches to anxiety, depression, stress, and emotional wellbeing. Free consultation available. Locations in Clontarf & Kilbarrack.">
-  <meta name="keywords" content="psychotherapy Dublin, counselling Dublin, trauma therapy, anxiety counselling, depression therapy, child therapy, play therapy, teen counselling, North Dublin psychotherapy, LGBTQIA+ affirming therapy, neurodiversity-positive counselling, low cost">
+  <meta name="keywords" content="psychotherapy Dublin, counselling Dublin, trauma therapy, anxiety counselling, depression therapy, child therapy, play therapy, teen counselling, North Dublin psychotherapy, LGBTQIA+ affirming therapy, neurodiversity-positive counselling">
   
   <!-- Open Graph tags for social sharing -->
   <meta property="og:title" content="Séimh Psychotherapy - Trauma-Informed Counselling in Dublin">
@@ -133,18 +133,27 @@
   </script>
 </head>
 
+<body>
+
 <!-- Navigation Bar -->
 <nav>
     <div class="nav-logo">
       <img src="séimhlogo3.png" alt="Séimh Psychotherapy">
     Séimh Psychotherapy
   </div>
-  <div class="nav-links">
+  <div class="nav-links" id="navLinks">
     <a href="#about">About</a>
     <a href="#services">Services</a>
     <a href="#fees">Fees</a>
     <a href="#contact">Contact</a>
   </div>
+  
+  <!-- Hamburger Menu -->
+  <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+  </button>
 </nav>
 
 <!-- HERO -->
@@ -167,9 +176,9 @@
   <section class="intro reveal">
     <div class="container">
 
-      <h2 align="center">Compassionate counselling and psychotherapy in North Dublin for adults, teenagers, and children. Trauma informed therapy for anxiety, stress, depression, grief and loss, emotional regulation and wellbeing.</h2>
+      <h2>Compassionate counselling and psychotherapy in North Dublin for adults, teenagers, and children. Trauma informed support for anxiety, stress, depression, and emotional wellbeing.</h2>
       <br>
-      <h3 align="center">Convenient locations in Clontarf, Dublin 3 & Kilbarrack, Dublin 5, with free parking, and excellent public transport links.</h3>
+      <h3>Convenient locations in Clontarf, Dublin 3 & Kilbarrack, Dublin 5, with free parking, and excellent public transport links.</h3>
     </div>
   </section>
 <!-- ABOUT ME -->
@@ -422,8 +431,11 @@
         a fee of €80.</p>
       <br>
       <p>
-        I strongly believe that therapy should be accessible to all. Therefore low cost therapy options are available for individuals experiencing financial difficulty. If cost feels like a barrier, please don't hesitate to get in touch — we can discuss a fee arrangement 
-        that works for your circumstances. The goal at Séimh Psychotherapy is to provide compassionate, accessible support regardless of financial situation.
+        I strongly believe that therapy should be accessible to all. Therefore a sliding scale is available
+        for individuals experiencing financial difficulty. If cost feels like a barrier, 
+        please don't hesitate to get in touch — we can discuss a fee arrangement 
+        that works for your circumstances. The goal at Séimh Psychotherapy is to provide 
+        compassionate, accessible support regardless of financial situation.
       </p>
       <br>
     </div>
@@ -583,6 +595,38 @@ document.addEventListener("DOMContentLoaded", () => {
 
       card.classList.remove("flipped");
     });
+  });
+});
+</script>
+
+<!-- Hamburger Menu Script -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.getElementById("navLinks");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+    hamburger.classList.toggle("active");
+    hamburger.setAttribute("aria-expanded", hamburger.classList.contains("active"));
+  });
+
+  // Close menu when a link is clicked
+  navLinks.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", () => {
+      navLinks.classList.remove("active");
+      hamburger.classList.remove("active");
+      hamburger.setAttribute("aria-expanded", "false");
+    });
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest("nav")) {
+      navLinks.classList.remove("active");
+      hamburger.classList.remove("active");
+      hamburger.setAttribute("aria-expanded", "false");
+    }
   });
 });
 </script>
