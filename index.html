@@ -141,19 +141,12 @@
       <img src="séimhlogo3.png" alt="Séimh Psychotherapy">
     Séimh Psychotherapy
   </div>
-  <div class="nav-links" id="navLinks">
+  <div class="nav-links">
     <a href="#about">About</a>
     <a href="#services">Services</a>
     <a href="#fees">Fees</a>
     <a href="#contact">Contact</a>
   </div>
-  
-  <!-- Hamburger Menu -->
-  <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
-    <span class="hamburger-line"></span>
-    <span class="hamburger-line"></span>
-    <span class="hamburger-line"></span>
-  </button>
 </nav>
 
 <!-- HERO -->
@@ -595,38 +588,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       card.classList.remove("flipped");
     });
-  });
-});
-</script>
-
-<!-- Hamburger Menu Script -->
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const hamburger = document.getElementById("hamburger");
-  const navLinks = document.getElementById("navLinks");
-
-  hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-    hamburger.classList.toggle("active");
-    hamburger.setAttribute("aria-expanded", hamburger.classList.contains("active"));
-  });
-
-  // Close menu when a link is clicked
-  navLinks.querySelectorAll("a").forEach(link => {
-    link.addEventListener("click", () => {
-      navLinks.classList.remove("active");
-      hamburger.classList.remove("active");
-      hamburger.setAttribute("aria-expanded", "false");
-    });
-  });
-
-  // Close menu when clicking outside
-  document.addEventListener("click", (event) => {
-    if (!event.target.closest("nav")) {
-      navLinks.classList.remove("active");
-      hamburger.classList.remove("active");
-      hamburger.setAttribute("aria-expanded", "false");
-    }
   });
 });
 </script>
