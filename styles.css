@@ -215,18 +215,16 @@
     /* INTRO */
     .intro {
       background: #B6BFAF;
-      padding-top: 50px;
-      padding-bottom: 60px;
     } 
 
     .intro h2 {
-      font-size: 2.2rem;
-      margin-bottom: 30px;
+      font-size: 2rem;
+      margin-bottom: 20px;
       line-height: 1.4;
     }
 
     .intro h3 {
-      font-size: 1.3rem;
+      font-size: 1.1rem;
       margin-bottom: 20px;
       line-height: 1.5;
       font-weight: 500;
@@ -236,13 +234,13 @@
       display:inline-block;
       background:white;
       color:#2b3823;
-      padding:16px 40px;
+      padding:12px 32px;
       border-radius:50px;
       font-weight:600;
       transition:all 0.35s ease;
       box-shadow:0 10px 25px rgba(0,0,0,0.08);
-      margin:20px 0 30px;
-      font-size:1rem;
+      margin:0;
+      font-size:0.95rem;
     }
 
     /* ABOUT */
@@ -253,8 +251,6 @@
    grid-template-columns: 1fr 1.2fr;
    gap:60px;
    align-items:flex-start;
-   max-width:1200px;
-   padding-top:0px;
 }
 
 #about{
@@ -263,7 +259,6 @@
 
 .about-image{
   width:100%;
-  margin:0;
 }
 
 .about-image img{
@@ -273,12 +268,13 @@
 }
 
 .about-text {
-  padding-right: 20px;
+  padding-right: 40px;
 }
 
 .about-text p {
-  margin-bottom: 24px;
-  line-height: 1.75;
+  margin-bottom: 30px;
+  line-height: 1.8;
+  font-size: 1rem;
 }
 
   .therapy-list {
@@ -286,7 +282,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 18px 50px;
     padding-left: 0;
-    margin-bottom: 24px;
+    margin-bottom: 30px;
   }
   
   .therapy-list li {
@@ -296,7 +292,7 @@
 
 
   .section-title{
-    font-size:3.4rem;
+    font-size:2.8rem;
     margin-bottom:40px;
     line-height:1.2;
   }
@@ -305,8 +301,6 @@
 
     .qualifications{
       background:#eef1eb;
-      padding-top: 100px;
-      padding-bottom: 100px;
     }
 
     .qual-grid{
@@ -319,7 +313,7 @@
 
     .card{
       background:white;
-      padding:50px;
+      padding:40px;
       border-radius:24px;
       border:1px solid rgba(43,56,35,0.06);
       box-shadow:0 8px 30px rgba(0,0,0,0.04);
@@ -333,7 +327,7 @@
 
     .card h3{
       margin-bottom:28px;
-      font-size:2.1rem;
+      font-size:1.6rem;
     }
   
     ul{
@@ -343,6 +337,7 @@
     li{
       margin-bottom:16px;
       line-height:1.7;
+      font-size:0.95rem;
     }
 
     /* SERVICES */
@@ -360,7 +355,7 @@
     flex-direction: column;
     height: 100%;
     background:white;
-    padding:50px 40px;
+    padding:35px;
     border-radius:24px;
     border:1px solid rgba(43,56,35,0.06);
     box-shadow:0 8px 25px rgba(0,0,0,0.05);
@@ -374,15 +369,16 @@
 }
 
   .service-card h3{
-     margin-bottom:24px;
-     font-size:2rem;
+     margin-bottom:20px;
+     font-size:1.5rem;
      line-height:1.3;
   }
 
   .service-card p{
      flex-grow: 1;
-     margin-bottom:28px;
+     margin-bottom:24px;
      line-height:1.75;
+     font-size:0.95rem;
   }
 
   .service-btn{
@@ -390,9 +386,9 @@
     margin-top:auto;
     color:white;
     background:#2b3823;
-    padding:14px 28px;
+    padding:12px 24px;
     border-radius:40px;
-    font-size:0.95rem;
+    font-size:0.9rem;
     font-weight:600;
     transition:0.3s ease;
   }
@@ -450,12 +446,13 @@
       overflow-y:auto;
       scrollbar-width: thin;
       background:white;
-      padding:50px 40px;
+      padding:35px;
     } 
 
     .flip-card-back p {
       margin-bottom: 20px;
       line-height: 1.7;
+      font-size:0.95rem;
     }
 
     .flip-card-back ul {
@@ -478,20 +475,20 @@
     background:#2b3823;
     color:white;
     text-align:center;
-    padding:120px 40px;
+    padding:80px 40px;
   }
 
   .cta h2{
     color:white;
     margin-bottom:32px;
-    font-size:3.4rem;
+    font-size:2.6rem;
     line-height:1.2;
   }
 
   .cta p{
     max-width:800px;
     margin:0 auto 45px;
-    font-size:1.15rem;
+    font-size:1.05rem;
     line-height:1.8;
   }
 
@@ -504,14 +501,12 @@
 
     .fees{
       background:#eef1eb;
-      padding-top: 100px;
-      padding-bottom: 100px;
     }
 
     .fees p {
-      margin-bottom: 28px;
+      margin-bottom: 25px;
       line-height: 1.8;
-      font-size: 1.05rem;
+      font-size: 0.95rem;
     }
 
     /* CONTACT */
@@ -526,13 +521,13 @@
   .contact-details p{
     margin-bottom:32px;
     line-height:1.8;
-    font-size:1.05rem;
+    font-size:0.95rem;
   }
 
   .contact-details strong {
     display: block;
     margin-bottom: 12px;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   form{
@@ -540,19 +535,19 @@
     flex-direction:column;
     gap:0;
     background:rgba(255,255,255,0.25);
-    padding:45px;
+    padding:40px;
     border-radius:15px;
   }
 
   input,
   textarea{
     width:100%;
-    padding:16px;
-    margin-bottom:20px;
+    padding:14px;
+    margin-bottom:16px;
     border:none;
     border-radius:14px;
     font-family:'Inter', sans-serif;
-    font-size:1rem;
+    font-size:0.95rem;
   }
 
       input:focus,
@@ -563,21 +558,21 @@
   }
 
   textarea{
-    min-height:200px;
+    min-height:180px;
     resize:vertical;
   }
 
   button{
     width:100%;
-    padding:16px;
+    padding:14px;
     border:none;
     border-radius:10px;
     background:#2b3823;
     color:white;
     cursor:pointer;
     font-weight:600;
-    font-size:1rem;
-    margin-top: 10px;
+    font-size:0.95rem;
+    margin-top: 8px;
     transition: all 0.3s ease;
   }
 
@@ -593,20 +588,20 @@
 
   legend {
     margin-bottom: 24px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
       footer{
     background:#1f291a;
     color:#d9ddd6;
     text-align:center;
-    padding:60px 20px;
-    font-size:0.95rem;
+    padding:50px 20px;
+    font-size:0.9rem;
   }
   
   footer p{
-    margin-bottom:16px;
-    line-height:1.8;
+    margin-bottom:12px;
+    line-height:1.7;
   }
     .instagram-link {
   display: inline-flex;
@@ -643,11 +638,11 @@
 
   @media(max-width:1024px){
     .section-title {
-      font-size: 2.8rem;
+      font-size: 2.4rem;
     }
 
     .cta h2 {
-      font-size: 2.8rem;
+      font-size: 2.2rem;
     }
 
     .qual-grid,
@@ -658,7 +653,7 @@
 
     .about {
       grid-template-columns: 1fr;
-      gap: 45px;
+      gap: 40px;
     }
 
     .about-text {
@@ -700,7 +695,7 @@
     }
 
     .hero h1{
-      font-size:2.4rem;
+      font-size:2.2rem;
     }
 
     .hero {
@@ -709,51 +704,51 @@
     }
 
     .logo {
-      width: 150px;
-      height: 150px;
-      margin-bottom: 30px;
+      width: 140px;
+      height: 140px;
+      margin-bottom: 25px;
     }
 
     .tagline {
-      font-size: 1.2rem;
-      margin-bottom: 35px;
+      font-size: 1.1rem;
+      margin-bottom: 30px;
     }
 
     .section-title{
-      font-size:2.2rem;
+      font-size:1.8rem;
     }
 
     .cta h2 {
-      font-size: 2.2rem;
+      font-size: 1.8rem;
     }
 
     section{
-      padding:80px 0;
+      padding:60px 0;
     }
 
     .card {
-      padding: 35px;
+      padding: 30px;
     }
 
     .card h3 {
-      font-size: 1.6rem;
-      margin-bottom: 20px;
+      font-size: 1.4rem;
+      margin-bottom: 18px;
     }
 
     .service-card {
-      padding: 35px 25px;
+      padding: 25px;
     }
 
     .flip-card-back {
-      padding: 35px 25px;
+      padding: 25px;
     }
 
     .cta {
-      padding: 80px 20px;
+      padding: 60px 20px;
     }
 
     form {
-      padding: 30px;
+      padding: 25px;
     }
 
     .contact-wrapper {
@@ -763,32 +758,32 @@
 
   @media (max-width: 768px) {
     .intro h2 {
-      font-size: 1.6rem;
-    }
-
-    .intro h3 {
-      font-size: 1.1rem;
-    }
-
-    .hero h1 {
-      font-size: 2rem;
-    }
-
-    .section-title {
-      font-size: 1.8rem;
-      margin-bottom: 30px;
-    }
-
-    .cta h2 {
-      font-size: 1.8rem;
-    }
-
-    .card h3 {
       font-size: 1.4rem;
     }
 
-    .nav-logo {
+    .intro h3 {
       font-size: 1rem;
+    }
+
+    .hero h1 {
+      font-size: 1.8rem;
+    }
+
+    .section-title {
+      font-size: 1.6rem;
+      margin-bottom: 25px;
+    }
+
+    .cta h2 {
+      font-size: 1.6rem;
+    }
+
+    .card h3 {
+      font-size: 1.2rem;
+    }
+
+    .nav-logo {
+      font-size: 0.95rem;
     }
 
     .therapy-list {
@@ -800,6 +795,6 @@
     }
 
     footer {
-      padding: 40px 20px;
+      padding: 35px 20px;
     }
   }
