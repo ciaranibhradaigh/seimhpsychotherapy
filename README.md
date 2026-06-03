@@ -1,3 +1,4 @@
+[googleb3a010f4549d909a.html](https://github.com/user-attachments/files/28559044/googleb3a010f4549d909a.html)
 Psychotherapy North Dublin
 Psychotherapist North Dublin
 Counselling North Dublin
@@ -16,6 +17,7 @@ Stress management therapy Dublin
 Relationship counselling Dublin
 Bereavement counselling Dublin
 Trauma therapy Dublin
+google-site-verification: googleb3a010f4549d909a.html
 Self-esteem counselling Dublin
 Work stress counselling Dublin
 Burnout therapy Dublin
