@@ -147,7 +147,27 @@
     <a href="#fees">Fees</a>
     <a href="#contact">Contact</a>
   </div>
+  
+  <button
+    class="hamburger"
+    type="button"
+    aria-label="Open navigation menu"
+    aria-expanded="false"
+    aria-controls="mobile-menu"
+  >
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#fees">Fees</a>
+    <a href="#contact">Contact</a>
+  </div>
 </nav>
+
 
 <!-- HERO -->
   
@@ -622,6 +642,31 @@ document.addEventListener("DOMContentLoaded", () => {
       backPanel.scrollTop = 0;
       card.classList.remove("flipped");
     });
+  });
+
+  // -------------------------
+  // MOBILE NAVIGATION
+  // -------------------------
+
+  const hamburger = document.querySelector(".hamburger");
+  const mobileMenu = document.querySelector("#mobile-menu");
+  
+  hamburger.addEventListener("click", () => {
+    const isOpen = mobileMenu.classList.toggle("open")
+
+    hamburger.setAttribute("aria-expanded", isOpen);
+    hamburger.setAttribute(
+      "aria-label",
+      isOpen ? "Close navigation menu" : "Open navigation menu"
+      );
+  });
+
+  mobileMenu.querySelectorAll("a").forEach(link) => {
+  link.addEventListener("click", () => {
+    mobileMenu.classList.remove("open");
+
+    hamburger.setAttribute("aria-expanded", "false");
+    hamburger.setAttribute("aria-label", "Open navigation menu");
   });
 });
 </script>
