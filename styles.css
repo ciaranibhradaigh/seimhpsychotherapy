@@ -610,7 +610,7 @@
       text-decoration: none;
 }
 
-.privacy-policy:hover {
+.privacy-policy-link:hover {
   color: #3cb371;
   transform: scale(1.1);
 }
