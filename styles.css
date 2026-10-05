@@ -559,19 +559,18 @@
   display: flex;
   align-items: flex-start;
   gap: 8px;
-  font-size: 0.85rem;
   line-height: 1.5;
   cursor: pointer;
 }
 
 .consent-label input {
-  margin-top: 3px;
+  width: auto;
+  margin-top: 4px;
   accent-color: #6f7d72;
   flex-shrink: 0;
 }
 
 .consent-label a {
-  color: inherit;
   text-decoration: underline;
 }
 
