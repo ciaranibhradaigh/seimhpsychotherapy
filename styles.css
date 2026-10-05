@@ -655,13 +655,12 @@
 }
 
 .privacypolicy ul {
-  list-style: none;
+  list-style-type: circle;
   padding-left: 25px;
   margin-bottom: 25px;
 }
 
 .privacypolicy li::before {
-    content: circle;
     margin-right: 10px;
 }
       
