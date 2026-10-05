@@ -627,6 +627,10 @@
   margin-bottom: 10px;
 }
 
+.privacypolicy > h2:first-of-type {
+  text-align: center;
+}
+
 .privacypolicy > p:first-of-type {
   text-align: center;
   font-size: 0.9rem;
