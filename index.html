@@ -504,9 +504,21 @@
           <input type="tel" name="telephone" placeholder="Your Mobile" required>
           <input type="email" name="email" placeholder="Your Email" required>
           <textarea name="message" placeholder="Your Message" required></textarea>
-          <p><input type="checkbox" id="consent" name="consent" required>I consent to Séimh Counselling and Psychotherapy processing the personal data provided in 
+          <!-- <p><input type="checkbox" id="consent" name="consent" required>I consent to Séimh Counselling and Psychotherapy processing the personal data provided in 
             this form to respond to my enquiry. I understand that if this enquiry relates to a minor (U18), a parent or legal guardian must complete this form. 
-            I have read and agree to the [Privacy Notice].</p>
+            I have read and agree to the <a href="privacypolicy.html">Privacy Notice</a></p> -->
+          <div class="consent-group">
+            <label class="consent-label" for="consent">
+              <input type="checkbox" id="consent" name="consent" required>
+              <span>
+                I consent to Séimh Counselling and Psychotherapy processing the personal
+                data provided in this form to respond to my enquiry. I understand that
+                if this enquiry relates to a minor (U18), a parent or legal guardian
+                must complete this form. I have read and agree to the
+                <a href="privacypolicy.html">Privacy Notice</a>.
+              </span>
+            </label>
+          </div>
           <button type="submit">Submit</button>
         </fieldset>
       <div class="h-captcha" data-captcha="true"></div>
@@ -548,6 +560,9 @@
       Feelings of Being Stuck or Overwhelmed
     </p>
     <p> Pre-accredited member of IACP 
+    </p>
+    <p>
+      <a href="privacypolicy.html" class="privacy-policy">Privacy Policy</a>
     </p>
     <p>
       © 2026 Séimh Psychotherapy
