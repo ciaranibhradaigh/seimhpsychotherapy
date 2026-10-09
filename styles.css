@@ -563,7 +563,7 @@
   cursor: pointer;
 }
 
-.consent-label p {
+.consent-label span {
       font-size:0.3rem;
 }
 
