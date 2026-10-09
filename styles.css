@@ -563,6 +563,10 @@
   cursor: pointer;
 }
 
+.consent-label p {
+      font-size:0.5rem;
+}
+
 .consent-label input {
   width: auto;
   margin-top: 4px;
